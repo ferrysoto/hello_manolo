@@ -1,0 +1,9 @@
+<%if (data.username) {%>
+  <%if (data.tratamiento == 'male') {%>
+    Bienvenido <%= data.username %>
+  <%} else {%>
+    Bienvenida <%= data.username %>
+  <%}%>
+<%} else {%>
+  Bienvenido Anónimo
+<%}%>
